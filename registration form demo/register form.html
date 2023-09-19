@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body align="center">
+    <h1>Registration Form</h1>
+    <form action="" method="post">
+        <!-- name -->
+        <label for="name">Name:</label>
+        <input type="text" required placeholder="Enter Your Name"><br><br>
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" required placeholder="Enter Your Email Id"><br><br>
+        <!-- password -->
+        <label for="password">Password:</label>
+        <input type="password" required placeholder="Enter Your Password"><br><br>
+        <!-- phone no. -->
+        <label for="phone">Phone No:</label>
+        <input type="number" required placeholder="Enter Your Phone No"><br><br>
+        <!-- gender -->
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male">Male
+        <input type="radio" id="female">Female
+        <input type="radio" id="other">Other <br><br>
+        <!-- language -->
+        <label for="language">Language</label>
+        <select name="language" id="language">
+            <option value="tamil">Tamil</option>
+            <option value="english">English</option>
+            <option value="french">French</option>
+        </select><br><br>
+        <label for="zip code">Zip Code:</label>
+        <input type="number" required><br><br>
+        <label for="about">About:</label>
+        <textarea name="about" id="about" cols="20" rows="2" placeholder="Write about yourself...."></textarea><br><br>
+        <!-- button -->
+        <input type="submit" value="Register">
+    </form><br>
+    <a href="index.html">Back to homepage</a>
+
+</body>
+</html>
